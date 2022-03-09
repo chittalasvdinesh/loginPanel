@@ -36,7 +36,7 @@ function pvalidation() {
         error3.textContent = "Required"
         return false
     } else if (upassw!=pcheck) {
-        error3.textContent = "Enter correct passowrd"
+        
         return false
     } else {
         error3.textContent = ""
